@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>e6585c25-1d49-4d96-8ab7-7a399c59379b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services\Employee\Employee.API\Employee.API.csproj" />
+    <ProjectReference Include="..\Services\File\File.API\File.API.csproj" />
+    <ProjectReference Include="..\Services\Gateway\Gateway.API\Gateway.API.csproj" />
+    <ProjectReference Include="..\Services\Identity\Identity.API\Identity.API.csproj" />
+    <ProjectReference Include="..\Services\Notification\Notification.API\Notification.API.csproj" />
+    <ProjectReference Include="..\Services\Performance\Performance.API\Performance.API.csproj" />
+    <ProjectReference Include="..\Services\Reporting\Reporting.API\Reporting.API.csproj" />
+    <ProjectReference Include="..\Services\Training\Training.API\Training.API.csproj" />
+    <ProjectReference Include="..\Web\EmployeePerformance.Web\EmployeePerformance.Web.csproj" />
+  </ItemGroup>
+
+</Project>

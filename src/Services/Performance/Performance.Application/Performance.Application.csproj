@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Behaviors\" />
+    <Folder Include="Commands\CreatePerformance\" />
+    <Folder Include="Commands\DeletePerformance\" />
+    <Folder Include="Commands\UpdatePerformance\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="EventHandlers\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Queries\GetPerformancesList\" />
+    <Folder Include="Queries\GetPerformance\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
+</Project>

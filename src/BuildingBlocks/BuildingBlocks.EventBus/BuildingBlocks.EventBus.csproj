@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Events\" />
+    <Folder Include="Implementations\AzureEventGrid\" />
+    <Folder Include="Implementations\AzureEventHub\" />
+    <Folder Include="Implementations\AzureServiceBus\" />
+  </ItemGroup>
+
+</Project>

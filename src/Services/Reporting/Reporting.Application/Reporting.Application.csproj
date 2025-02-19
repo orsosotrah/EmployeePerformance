@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Behaviors\" />
+    <Folder Include="Commands\CreateReport\" />
+    <Folder Include="Commands\DeleteReport\" />
+    <Folder Include="Commands\UpdateReport\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="EventHandlers\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Queries\GetReportsList\" />
+    <Folder Include="Queries\GetReport\" />
+    <Folder Include="Validators\" />
+  </ItemGroup>
+
+</Project>

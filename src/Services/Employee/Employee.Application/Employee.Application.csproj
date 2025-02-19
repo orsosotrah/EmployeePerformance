@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\CreateEmployee\" />
+    <Folder Include="Commands\DeleteEmployee\" />
+    <Folder Include="Commands\UpdateEmployee\" />
+    <Folder Include="EventHandlers\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Queries\GetEmployee\" />
+    <Folder Include="Queries\GetEmployeesList\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks.CommonLibrary\BuildingBlocks.CommonLibrary.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks.Contracts\BuildingBlocks.Contracts.csproj" />
+    <ProjectReference Include="..\Employee.Domain\Employee.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
